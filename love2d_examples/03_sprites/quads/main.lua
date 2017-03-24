@@ -10,6 +10,7 @@ function love.update(dt)
 end
 
 function love.draw()
-  love.graphics.draw(tileset, quad1, 20, 20)
+
   love.graphics.draw(tileset, quad2, 120, 120)
+  love.graphics.draw(tileset, quad1, 120, 120)
 end
